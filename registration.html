@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="fill.css">
+</head>
+<body>
+    <div class="intro">
+        <h1>Welcome to registration page</h1>
+    </div>
+    <div class="registercontainer"><!--Register Container starts here-->
+        <div class="registertitlecontain">Registration Page</div>
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname"><br><br> 
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname"><br><br> 
+            <label for="email">Email Id:</label>
+            <input type="email" id="email" name="email"><br><br> 
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br> 
+            <label for="phonenumber">Phone Number:</label>
+            <input type="tel" id="phonenumber" name="phonenumber"><br><br> 
+        </fieldset><br>
+        <fieldset>  
+            <legend>Additional Information</legend>       
+             <label for="Gender">Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">Male 
+            <input type="radio" id="female" name="gender" value="female">Female 
+            <input type="radio" id="others" name="gender" value="others">Others
+            <br><br>
+            <label for="country">Country:</label>
+            <select id="country" class="dropdown" name="country">
+                <option value="selectcountry" selected disabled>Select a country</option>
+                <option value="nepal">Nepal</option>
+                <option value="usa">USA</option>
+                <option value="japan">Japan</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+
+            <label for="address">Address:</label> 
+            <textarea name="address" id="address" rows="4" cols="75"></textarea><br><br>
+        </fieldset><br>
+            <input type="submit"class="buttonregister" onclick="alert('Registration Successful')" value="Submit">
+       
+        </form>
+    </div><!--Registration container ends here-->
+</body>
+</html>
