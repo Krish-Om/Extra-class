@@ -1,0 +1,417 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 10px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerLeft {
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.headerLeft i {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.headerLeft i:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+.headerCenter {
+    display: flex;
+    justify-content: center;
+    width: 65%;
+    color: black;
+    text-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.headerCenter h1 {
+    font-size: 30px;
+}
+
+.headerRight {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+}
+
+.headerRight h5 {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 5px;
+    border: 1px solid black;
+    box-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+}
+
+.headerRight h5:hover {
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+}
+
+section .bannerSection {
+    width: 100%;
+    height: 70vh;
+    padding: 10px;
+    background-size: cover;
+    background-position: 0%;
+    background-image: url(https://samriddhicollege.edu.np/wp-content/uploads/2021/03/Feature-pic-e1623569045209.jpg);
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    width: 100%;
+    background-color: rgba(131, 198, 226, 0.7);
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.5s;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+.nav-links a:hover {
+    background-color: gray;
+    color: white;
+}
+
+main {
+    padding: 20px;
+    width: 100%;
+    background-color: white;
+}
+
+main h1 {
+    text-align: center;
+}
+
+
+.gridContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.gridItem {
+    box-shadow: 1px 1px 10px #fff, 1px 1px 10px #ccc;
+    padding: 10px;
+    color: black;
+    text-align: center;
+
+}
+
+.gridItem img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+.gridItem h3 {
+    margin: 10px 0;
+    color: black;
+    font-size: x-large;
+}
+
+.gridItem p {
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.gridItem a {
+    text-decoration: none;
+    color: black;
+}
+
+.gridItem a:hover {
+    color: #fff;
+}
+
+.btn {
+    color: black;
+    font-size: large;
+    background-color: lightblue;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background-color: rgb(111, 196, 225);
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+
+/* Main Content Second Row CSS Starts */
+
+.secondRowMainContainer {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+
+.secondRowMainInnerContainer {
+    padding: 10px;
+    color: black;
+}
+
+.secondRowMainInnerContainer h2 {
+    color: rgb(70, 148, 225);
+}
+
+.notice-card {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.notice-card .icon {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+#noticeCardIconOne {
+    background-color: #ff6600;
+}
+
+#noticeCardIconTwo {
+    background-color: #5ca4ce;
+}
+
+#noticeCardIconThree {
+    background-color: #66b33f;
+}
+
+.notice-card .icon i {
+    font-size: 32px;
+}
+
+.notice-card .content {
+    padding: 20px;
+}
+
+.notice-card .content h2 {
+    font-size: 20px;
+    color: #003d99;
+    margin: 0 0 10px 0;
+}
+
+.notice-card .content a {
+    color: #003d99;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.notice-card .content a:hover {
+    text-decoration: underline;
+}
+
+.secondRowMainCenterContainer {
+    display: block;
+    width: 40%;
+}
+
+.samriddhiExperiencesItem {
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.samriddhiExperiencesCheckbox {
+    min-width: 24px;
+    height: 24px;
+    background-color: #ff6600;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    color: white;
+}
+
+/* .samriddhiExperiencesCheckbox::before {
+    content: '\2713';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+} */
+
+.samriddhiExperiencesText {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#chairmanImg {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+
+#chairmanParagraph {
+    text-align: justify;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Main Content Second Row  CSS Ends*/
+
+
+/* Third Row CSS Starts Here */
+.thirdRowMainContainer {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.thirdRowMainInnerContainer {
+    padding: 5px;
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    border: 2px solid black;
+
+}
+
+#thirdRowMainInnerContainerLeftImage {
+    background-position: 0%;
+    background-size: cover;
+    background-image: url('https://samriddhicollege.edu.np/wp-content/uploads/2020/07/BSc.CSIT-Courses-in-Nepal.jpg');
+}
+
+#thirdRowMainInnerContainerRightImage {
+    background-position: 0%;
+    background-size: cover;
+    background-image: url('https://samriddhicollege.edu.np/wp-content/uploads/2020/12/88144195_1562483190599592_2474927114218897408_o-e1623570366438.jpg');
+}
+
+
+.thirdRowMainInnerContainerContent {
+    background-color: white;
+    position: absolute;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 95%;
+    color: black;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px black;
+    bottom: 0;
+}
+
+
+.samriddhiFooter {
+    width: 100%;
+    display: flex;
+    width: 100%;
+    gap: 20px;
+    padding: 10px;
+    background-color: gray;
+    box-sizing: border-box;
+
+}
+
+.footerLinkItems {
+    padding: 10px;
+    color: black;
+    width: 20%;
+
+}
+
+.footerLinkItems h2 {
+    padding: 10px;
+    color: white;
+
+}
+
+.footerLinkItems ul {
+    list-style: none;
+}
+
+.footerLinkItems li a {
+    color: white;
+    line-height: 2em;
+    text-decoration: none;
+}
+
+.footerLinkItems li a::before {
+    content: '\2713';
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footerImageGridContainer {
+    padding: 20px;
+    width: 50%;
+    gap: 10px;
+}
+
+.footerImageGrid {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.footerImageGrid img {
+    width: 100%;
+    height: auto;
+    max-height: 100px;
+
+}
+
+.footerAddress {
+    padding: 20px;
+    color: white;
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footerAddress h4{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.1em;
+}

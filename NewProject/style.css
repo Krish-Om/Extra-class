@@ -66,11 +66,11 @@ header {
 
 section .bannerSection {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     padding: 10px;
     background-size: cover;
     background-position: 0%;
-    background-image: url('abish.jpeg');
+    background-image: url(https://samriddhicollege.edu.np/wp-content/uploads/2021/03/Feature-pic-e1623569045209.jpg);
 }
 
 .navbar {
@@ -118,7 +118,7 @@ main h1 {
 .gridContainer {
     padding: 20px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
 
