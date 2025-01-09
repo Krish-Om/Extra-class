@@ -48,11 +48,19 @@
     width:100%;
     height: auto;
     animation-name: photoZoom;
+    animation-duration:2s;
+    cursor: pointer;
 }
 
 @keyframes photoZoom{
     25%{
         transform: scale(1.2,1.2);
     }
+}
+
+.aboutUsOurTeamContainer h3{
+    font-size: large;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
