@@ -1,0 +1,58 @@
+.aboutUsContainer{
+    padding:20px;
+    display:flex;
+    gap:20px;
+}
+
+.aboutUsLeftContainer{
+    padding: 20px;
+    width:70%;
+    height: 50vh;
+    position: relative;
+    border: 2px solid black;
+}
+
+.aboutUsRightContainer{
+    padding: 20px;
+    width:30%;
+    height: 50vh;
+    position: relative;
+    border: 2px solid black;
+}
+
+.aboutUsLeftContainerFirstRow{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.aboutUsOurTeamContainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin-top: 40px;
+}
+
+.aboutUsOurTeamItems{
+    padding:10px;
+    text-align: center;
+}
+
+.aboutUsOurTeamContainer img{
+    border-radius: 50%;
+    width:100%;
+    height: auto;
+}
+
+.aboutUsOurTeamContainer img:hover{
+    border-radius: 50%;
+    width:100%;
+    height: auto;
+    animation-name: photoZoom;
+}
+
+@keyframes photoZoom{
+    25%{
+        transform: scale(1.2,1.2);
+    }
+}
+
