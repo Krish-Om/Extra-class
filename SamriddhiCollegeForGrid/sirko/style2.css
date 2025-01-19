@@ -104,13 +104,13 @@ section .bannerSection {
     color: white;
 }
 
-main {
+#homeMain {
     padding: 20px;
     width: 100%;
     background-color: white;
 }
 
-main h1 {
+#homeMain h1 {
     text-align: center;
 }
 
