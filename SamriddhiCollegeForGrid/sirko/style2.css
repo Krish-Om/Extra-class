@@ -346,7 +346,7 @@ section .bannerSection {
     width: 100%;
     gap: 20px;
     padding: 10px;
-    background-color: gray;
+    background-color: #003d99;
     box-sizing: border-box;
 
 }
