@@ -17,8 +17,23 @@ const person = {
     address: PersonAddress
 }
 
-console.log(person)
-console.log(PersonAddress)
+// console.log(person)
+// console.log(PersonAddress)
 
 let hobbies = person.hobbies
-console.log(hobbies)
+// console.log(hobbies)
+// let i=1
+for (const hobbby of hobbies) {
+    // console.log(hobbby)
+    console.log(` ${hobbby}`)
+    // i++
+}
+
+
+hobbies.push("gym")
+
+let sortedHobbies = hobbies.sort()
+console.log(sortedHobbies)
+
+let slicedHobbies = hobbies.slice(0,3)
+console.log(slicedHobbies)
