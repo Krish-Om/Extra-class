@@ -22,7 +22,7 @@ const person = {
 
 let hobbies = person.hobbies
 // console.log(hobbies)
-let i=1
+let i = 1
 for (const hobbby of hobbies) {
   // console.log(hobbby)
   console.log(` ${hobbby}`)
@@ -40,12 +40,13 @@ console.log(slicedHobbies)
 
 
 const person2 = {
-  firstName : "John",
-  lastName : "Doe",
+  firstName: "John",
+  lastName: "Doe",
   age: 50,
-  eyeColor: "blue"
+  eyeColor: "blue",
+  // "firstName": "Krihsom"
 };
-
+console.log(person2.firstName);
 
 // let {firstName, lastName} = person2
 
@@ -53,12 +54,17 @@ const person2 = {
 // console.log(firstName)
 // console.log(lastName)
 
-let{firstName,lastName,...personDetails} = person2
+let { firstName, lastName, ...personDetails } = person2
 console.log(firstName)
 console.log(lastName)
 console.log(personDetails);
 
 
-const numbers= [1,23,4,5,6,5]
-let [n1,n2,n3] = numbers
-console.log(n1,n2,n3)
+const numbers = [1, 23, 4, 5, 6, 5]
+let [n1, n2, n3] = numbers
+console.log(n1, n2, n3)
+
+
+function testingThisKeyword() {
+  console.log(this)
+}
