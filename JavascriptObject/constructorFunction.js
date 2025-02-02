@@ -1,22 +1,40 @@
-function video(title, description, views) {
+// function video(title, description, views) {
+//
+//   this.title = title;
+//   this.description = description;
+//   this.views = views;
+//
+//   console.log(this);
+// }
+//
+// video('Sample Video title', "Video description", 10)
+//
+//
+// const user = {
+//   name: 'Alex'
+// }
+//
+// function sayHello() {
+//   console.log(`hello ${this.name}`)
+// }
 
-  this.title = title;
-  this.description = description;
-  this.views = views;
+// sayHello.call(user)
 
-  console.log(this);
+
+
+const samriddhiCollege = {
+  name: 'Samriddhi College',
+
+  showDetails: function (location, phone) {
+    console.log(`College Name:${this.name}, Location:${location}, Phone: ${phone}`)
+  }
 }
 
-video('Sample Video title', "Video description", 10)
-
-
-const user = {
-  name: 'Alex'
+const partnerCollege = {
+  name: "Shikshyalaya College",
 }
 
-function sayHello() {
-  console.log(`hello ${this.name}`)
-}
-
-sayHello.call(user)
+samriddhiCollege.showDetails.call(partnerCollege, 'Ktm', 987654321
+)
+samriddhiCollege.showDetails.apply(partnerCollege, ['Bkt', 34344321])
 
