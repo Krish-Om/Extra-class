@@ -28,8 +28,10 @@ class Student extends Person {
         this.subject = subject
     }
 
+    //method overriding
     showDetails() {
         console.log(`Hello I am ${this.name}, I am in batch ${this.batch}, I am ${this.age} years old and I am in year ${this.year} and I am studying ${this.subject}`)
+        super.showDetails()
     }
 }
 
