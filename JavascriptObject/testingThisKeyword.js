@@ -15,6 +15,8 @@ function testThis() {
       console.log(this);
   }
   video.pause()
+
+  
 }
 
 thisBtn = document.getElementById("this-button")
