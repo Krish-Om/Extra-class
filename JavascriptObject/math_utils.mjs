@@ -21,4 +21,8 @@ export class Person{
         return `Name is ${name}`;
     }
 }
+
+export default function greet(){
+    console.log("Hello from the default function of math_utils");
+}
 export {lat,long};
