@@ -28,7 +28,18 @@ h1 {
 .cardDesign {
   margin: 20px 0;
   padding: 20px;
-  background-color: yellowgreen;
+  background-color: lightcyan;
   border: 4px solid mediumaquamarine;
   border-radius: 19px;
+}
+
+
+
+button {
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+
 }
