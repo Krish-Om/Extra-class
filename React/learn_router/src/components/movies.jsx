@@ -13,7 +13,6 @@ const MovieCard= ({movieData})=>{
                     <p className="movie-overview">{movieData.overview}</p>
                     <p className="movie-release">Rating: {movieData.vote_average}</p>
                     <p className="movie-popularity">Popularity: {movieData.popularity}</p>
-
                 </div>
             </div>
         </>
