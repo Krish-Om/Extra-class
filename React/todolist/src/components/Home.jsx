@@ -1,6 +1,7 @@
 import { useState } from "react"
 import "./Home.css"
 import Todo from './Todo.jsx'
+
 const Home = () => {
   const [newTask, setNewTask] = useState('');
   return (
@@ -10,7 +11,8 @@ const Home = () => {
         <div className="list-box">
           <input type="text" value={newTask}
             onChange={(e) => setNewTask(e.target.value)} />
-          <Todo task={newTask} />
+          <button onClick={addTask}></button>
+
         </div>
       </main>
     </>

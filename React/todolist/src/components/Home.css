@@ -6,3 +6,10 @@ main {
   border: 3px solid white;
   border-radius: 7px;
 }
+
+
+button {
+  color: aliceblue;
+  height: 10px;
+  width: 3px;
+}
